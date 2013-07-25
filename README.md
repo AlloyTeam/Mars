@@ -14,6 +14,6 @@ Mars - mobile needs a hero
 8. 敏捷的构建过程
 9. 响应式编程实践
 
-AlloyTeam 邀请社区朋友一起参与完善 Mars，欢迎 Fork & Pull Request
+AlloyTeam 邀请社区朋友一起参与完善 Mars，欢迎 [Fork](https://github.com/AlloyTeam/Mars/fork) & [Pull Request](https://github.com/AlloyTeam/Mars/pulls)
 
 > 腾讯
