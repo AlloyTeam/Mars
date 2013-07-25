@@ -48,10 +48,10 @@ perspective: 1000;
 
 #ball-2 {
   transition: left .5s ease;
-  left：0;
+  left: 0;
 }
 #ball-2.slidein {
-  left：500px;
+  left: 500px;
 }
 ```
 
@@ -60,7 +60,7 @@ perspective: 1000;
 
 ### 尽可能少的使用`box-shadows`与`gradients`
 
-box-shadows与gradients往往都是页面的性能杀手，尤其是在一个元素同时都使用了它们，所以拥抱扁平化设计吧。
+`box-shadows`与`gradients`往往都是页面的性能杀手，尤其是在一个元素同时都使用了它们，所以拥抱扁平化设计吧。
 
 ### 尽可能的让动画元素不在文档流中，以减少重排
 
@@ -113,7 +113,7 @@ aDiv.style.height = newHeight + 'px';   // Write
 与 [Document::updateLayoutIgnorePendingStylesheets](https://code.google.com/p/chromium/codesearch#chromium/src/third_party/WebKit/Source/core/dom/Document.cpp&q=updateLayout%20package:%5Echromium$%20file:%5Esrc/third_party/WebKit/Source/core/&dr=CSs&l=1750)
 两个方法：
 
-```c
+```cpp
 void Document::updateLayout()
 {
     ASSERT(isMainThread());
