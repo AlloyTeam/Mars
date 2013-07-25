@@ -2,22 +2,19 @@
 
 ### 伪类 :active 生效
 
-要让a链接的CSS伪类:active生效，只需要给这个a链接的touch系列的任意事件`touchstart/touchend`绑定一个空的匿名方法即可hack成功(来自薛端阳)
+要CSS伪类:active生效，只需要给document绑定`touchstart`或`touchend`事件
 
     <style>
     a {
-    color: #000;
+      color: #000;
     }
     a:active {
-    color: #fff;
+      color: #fff;
     }
     </style>
-    <a herf=”asdasd”>asdasd</a>
+    <a herf=foo >bar</a>
     <script>
-    var a=document.getElementsByTagName(‘a’);
-    for(var i=0;i<a.length;i++){
-    a[i].addEventListener(‘touchstart’,function(){},false);
-    }
+      document.addEventListener('touchstart',function(){},false);
     </script>
 
 ### 消除transition闪屏
