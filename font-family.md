@@ -28,4 +28,7 @@ Android下中文字体与英文字体都选择默认的无衬线字体。
 
 
 
+## 参考阅读
+* [Droid, the default font for older versions of Android](http://en.wikipedia.org/wiki/Droid_fonts)
+* [Roboto, the default font for newer versions of Android](http://en.wikipedia.org/wiki/Roboto)
 
