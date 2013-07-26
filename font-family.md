@@ -22,7 +22,7 @@ Heiti TC Medium 黑体-繁 中黑
 
 Android下中文字体与英文字体都选择默认的无衬线字体。
 
-4.0之前版本英文字体Android使用的是Droid Sans，中文字体Android会命中Droid Sans FallBack。
+4.0之前版本英文字体Android使用的是Droid Sans，中文字体Android会命中Droid Sans Fallback。
 
 4.0+ 中英文字体都会使用Android新的Roboto字体。
 
