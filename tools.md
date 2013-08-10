@@ -31,6 +31,12 @@
 * [css3动画在线制作器](http://ecd.tencent.com/css3/tools.html "css3动画在线制作器")
  
 * [css3渐变在线制作器](http://www.colorzilla.com/gradient-editor/ "css3渐变在线制作器")
+
+* [赛贝尔曲线在线制作器](http://cubic-bezier.com/ "赛贝尔曲线制作器")
+
+* [flexbox在线制作器](http://the-echoplex.net/flexyboxes/ "flexbox在线制作器")
+
+* [CSS3各种渲染效果在线工具（IE出品）](http://ie.microsoft.com/testdrive/Graphics/hands-on-css3/see-also.htm "CSS3各种渲染效果在线工具（IE出品）")
  
 * [resize添加到收藏夹后，可直接在浏览器中出现各种分辨率的选择工具来查看不同分辨率下的页面效果](http://lab.maltewassermann.com/viewport-resizer/ "resize")
 
