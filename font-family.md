@@ -2,7 +2,7 @@
 
 ```css
 body {
-    font-family: HelveticaNeue, Helvetica, STHeiTi, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
 }
 ```
 
