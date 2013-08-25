@@ -9,7 +9,7 @@ Mars - mobile needs a hero
 3. 类库依赖推荐
 4. 工具类方法汇总
 5. iOS与Android平台上问题列表
-6. [高性能Mobile Web开发](./blob/master/High-Performance/list.md)
+6. [高性能Mobile Web开发](./High-Performance/list.md)
 7. 高效的开发模式
 8. 敏捷的构建过程
 9. 响应式编程实践
