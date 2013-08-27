@@ -31,11 +31,13 @@
 
     input:-ms-clear{display:none;}
     
-##关于ios与os端字体的优化(横竖屏会出现字体加粗不一致等)
-[http://blog.sina.com.cn/s/blog_6da647a601011u4v.html](http://blog.sina.com.cn/s/blog_6da647a601011u4v.html "article5")
-[http://stackoverflow.com/questions/3220662/uiwebview-font-is-thinner-in-portrait-than-landscape](http://stackoverflow.com/questions/3220662/uiwebview-font-is-thinner-in-portrait-than-landscape "article5")
- 
+###关于ios与os端字体的优化(横竖屏会出现字体加粗不一致等)
+ios浏览器横屏时会重置字体大小，设置 `text-size-adjust` 为 `none` 可以解决ios上的问题，但桌面版safari的字体缩放功能会失效，因此最佳方案是将 `text-size-adjust` 为 `100%` 。
 
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
 ### js事件
 click 事件普遍 300ms 的延迟
 在手机上绑定click 事件，会使得操作有300ms 的延迟，体验并不是很好。
