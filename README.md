@@ -8,7 +8,7 @@ Mars - mobile needs a hero
 3. [模拟原生效果实践](./solution/)
 4. [工具类方法汇总](./tools/)
 5. [iOS与Android平台上问题列表](./issues/)
-6. [高性能Mobile Web开发](./high-performance/)
+6. [高性能Mobile Web开发](./performance/)
 7. 高效的开发模式
 8. 敏捷的构建过程
 9. 响应式编程实践
