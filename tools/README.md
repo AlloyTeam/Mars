@@ -1,6 +1,7 @@
 ## 资源与工具
 
-* [iOS5 Web调试工具iWebinspector](http://www.iwebinspector.com/)
+* [iOS5 Web调试工具iWebinspector](http://www.iwebinspector.com/) 
+ ![iWebinpector screenshot](http://www.iwebinspector.com/screenshot.png)
 
 * [html5与css3技术应用评估](http://html5please.com/ "html5与css3技术应用评估")
  
