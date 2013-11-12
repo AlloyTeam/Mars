@@ -1,5 +1,7 @@
 ## 资源与工具
 
+* [iOS5 Web调试工具iWebinspector](http://www.iwebinspector.com/)
+
 * [html5与css3技术应用评估](http://html5please.com/ "html5与css3技术应用评估")
  
 * [各种奇妙的hack](http://browserhacks.com/ "各种奇妙的hack")
