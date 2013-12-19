@@ -7,6 +7,7 @@
       body { padding: 10px; }
       
       #touch {
+        -webkit-transform: translate3d(0,0,0);
         background-color: #000;
         color: white;
         font-size: 48px;
@@ -45,11 +46,11 @@
       };
       
       touch.ontouchend = function(e) {
-        touchcancel.innerText = e.timeStamp;
+        touchend.innerText = e.timeStamp;
       };
 
       touch.ontouchcancel = function(e) {
-        touchend.innerText = e.timeStamp;
+        touchcancel.innerText = e.timeStamp;
       };
       
       touch.onclick = function(e) {
