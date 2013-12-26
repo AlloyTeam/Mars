@@ -39,7 +39,9 @@
 ### js事件
 click 事件普遍 300ms 的延迟
 在手机上绑定click 事件，会使得操作有300ms 的延迟，体验并不是很好。
-开发者大多数会使用封装的 tap 事件来代替click 事件，所谓的 tap 事件由 touchstart 事件 + touchmove 判断 + touchend 事件封装组成
+开发者大多数会使用封装的 tap 事件来代替click 事件，所谓的 tap 事件由 touchstart 事件 + touchmove 判断 + touchend 事件封装组成。
+
+或者使用 [fastclick](https://github.com/ftlabs/fastclick)
 
 ### ios点击会慢300ms
 
