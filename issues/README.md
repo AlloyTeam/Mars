@@ -130,3 +130,24 @@ Android web视图，例如在 HTC EVO 和三星的 Galaxy Nexus 中，文本输�
 解决方法删除了 `overflow-x:hidden;` 然后在JS生成下来菜单之后 focus 聚焦，这两步操作之后解决了问题。(来自岛都-小Qi)
 
 参考：<http://stackoverflow.com/questions/4697908/html-select-control-disabled-in-android-webview-in-emulator>
+
+###移动端 HTML5 audio autoplay 失效问题
+
+这个不是 BUG，由于自动播放网页中的音频或视频，会给用户带来一些困扰或者不必要的流量消耗，所以苹果系统和安卓系统通常都会禁止自动播放和使用 JS 的触发播放，必须由用户来触发才可以播放。
+
+解决方法思路：先通过用户 touchstart 触碰，触发播放并暂停（音频开始加载，后面用 JS 再操作就没问题了）。
+
+解决代码：
+
+```
+document.addEventListener('touchstart', function () {
+    document.getElementsByTagName('audio')[0].play();
+    document.getElementsByTagName('audio')[0].pause();
+});
+```
+方案出处：<http://stackoverflow.com/questions/17350924/iphone-html5-audio-tag-not-working>
+
+扩展阅读：<http://yujiangshui.com/recent-projects-review/#toc-7>
+
+
+
