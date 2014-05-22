@@ -149,5 +149,29 @@ document.addEventListener('touchstart', function () {
 
 扩展阅读：<http://yujiangshui.com/recent-projects-review/#toc-7>
 
+###移动端 HTML5 input date 不支持 placeholder 问题
 
+input type date 的 placeholder 支持性有一定问题，因为浏览器会针对此类型 input 增加 datepicker 模块，看上去没那么必要支持 placeholder。
 
+对 input type date 使用 placeholder 的目的是为了让用户更准确的输入日期格式，iOS 上会有 datepicker 不会显示 placeholder 文字，但是为了统一表单外观，往往需要显示。Android 部分机型没有 datepicker 也不会显示 placeholder 文字。
+
+简单的进行了测试：
+
+桌面端（Mac）
+
+- Safari 不支持 datepicker，placeholder 正常显示。
+- Firefox 不支持 datepicker，placeholder 正常显示。
+- Chrome 支持 datepicker，显示 年、月、日 格式，忽略 placeholder。
+
+移动端
+
+- iPhone5 iOS7 有 datepicker 功能，但是不显示 placeholder。
+- Andorid 4.0.4 无 datepicker 功能，不显示 placeholder
+
+问题解决方法：
+
+先使其 type 为 text，此时支持 placeholder，当触摸或者聚焦的时候，使用 JS 切换使其触发 datepicker 功能。
+
+	<input placeholder="Date" class="textbox-n" type="text" onfocus="(this.type='date')"  id="date"> 
+
+方案出处：<http://stackoverflow.com/questions/20321202/not-showing-place-holder-for-input-type-date-field-ios-phonegap-app>
