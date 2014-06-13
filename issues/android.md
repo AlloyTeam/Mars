@@ -12,3 +12,6 @@ Andorid Issues
 解决办法是只在 display:block 元素上设置 position:relative
 
 4. HTC Desire HD A9191 (Android 2.3.5) 为 display:none 元素通过添加 css class 设置的 display:block 无法起作用，解决办法是使用内联样式 `el.styls.display=‘block'`显示元素
+
+5. HTC Desire HD A9191 (Android 2.3.5) 显示遮罩层后调用`window.scrollTo` 滚动到顶不起作用，解决办法是先调用 `scrollTo`方法，再显示遮罩层
+
