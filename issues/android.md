@@ -15,3 +15,4 @@ Andorid Issues
 
 5. HTC Desire HD A9191 (Android 2.3.5) 显示遮罩层后调用`window.scrollTo` 滚动到顶不起作用，解决办法是先调用 `scrollTo`方法，再显示遮罩层
 
+![效果图](http://ww4.sinaimg.cn/thumbnail/6a53f589jw1ehcld89ikzj206o08wwf6.jpg)
