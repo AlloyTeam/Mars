@@ -7,3 +7,4 @@ iOS Issues
 * IOS（7.1.1版本）滚动元素中设定其中某个元素的 `innerHTML` 属性一定机率导致画面闪动（估计是触发了重绘），解决办法是设置文字时使用`textContent`属性。
 * IOS（7.1.1版本）动态改变滚动元素中某个元素 `top` 属性一定机率导致画面闪动，解决办法是使用 `translateY` 替代
 * IOS（7.1.1版本）通过`-webkit-overflow-scrolling: touch`方式设定的滚动元素时，如果滚到头的时候拖动，会出现页面的整体滚动，解决办法见<https://github.com/chemzqm/scrollfix/blob/master/index.js>
+* IOS8一个页面内播放超过15个video之后触发解码器错误，将不能继续播放其他video。
