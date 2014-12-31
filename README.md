@@ -10,7 +10,8 @@ Mars - mobile needs a hero
 5. [iOS与Android平台上问题列表](./issues/)
 6. [高性能Mobile Web开发](./performance/)
 7. 类库依赖推荐
-8. [演示](./demos/)
+8. [移动端前端开发调试工具使用和技巧](./tools/multidevice-frontend-debug.md)
+9. [演示](./demos/)
 
 AlloyTeam 邀请社区朋友一起参与完善 Mars，欢迎 [Fork](https://github.com/AlloyTeam/Mars/fork) & [Pull Request](https://github.com/AlloyTeam/Mars/pulls)
 
