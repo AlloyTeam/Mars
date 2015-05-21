@@ -175,3 +175,27 @@ input type date 的 placeholder 支持性有一定问题，因为浏览器会针
 	<input placeholder="Date" class="textbox-n" type="text" onfocus="(this.type='date')"  id="date"> 
 
 方案出处：<http://stackoverflow.com/questions/20321202/not-showing-place-holder-for-input-type-date-field-ios-phonegap-app>
+
+###IOS Safari  支持localstorage但是setItem异常（QUOTA_EXCEEDED_ERR:DOM Exception 22）
+
+      平台：IOS8.1
+      browser：Safari600.1.4
+ 
+ 问题源自于项目需要在浏览器中遮罩提示,点击关闭状态存储在localstorage中。Safari浏览器关闭后刷新页面层依旧存在
+ <a href="http://stackoverflow.com/questions/14555347/html5-localstorage-error-with-safari-quota-exceeded-err-dom-exception-22-an">bug issue</a>
+简单的存储状态可以使用cookie的方式替代。
+###Chrome 地址栏自动隐藏交互行为对于fixed 顶部的元素遮挡
+
+	系统：IOS8.1
+	浏览器：Chrome 26.0.1410.53
+
+  描述信息：页面包含fixed顶部的tip element，当页面向下滑动的时候Chrome地址栏自动隐藏，当向上滑动的时候地址栏自动出现。这种交互行为本身的好处会增大用户可视、交互区域。但是在Chrome 26这个版本这个浏览器UI布局使用adjustPan的方式，以至于向上滑动以后fixed的元素没有被自动向下移动（没有重绘）。
+
+<img src="./thumb/chrome-autohidden-influnce-fixed-element.png" width="320px" height="480px" alt="Chrome自动隐藏地址栏影响fixed元素显示"/>
+
+<a href="https://code.google.com/p/chromium/issues/detail?id=288747">bug fixed</a>
+<a href="http://stackoverflow.com/questions/11258877/fixed-element-disappears-in-chrome">解决办法在这里</a>
+
+###Android平台遮罩层下的input、select、a等元素可以被点击和focus(点击穿透)
+   
+  问题发现于三星手机，这个在特定需求下才会有，因此如果没有类似问题的可以不看。首先需求是浮层操作，在三星上被遮罩的元素依然可以获取focus、click、change. <a href="https://code.google.com/p/android/issues/detail?id=6721">but issue</a> ，在查看bug报告list以后，找到了两种解决方案，第一是通过层显示以后加入对应的class名控制，第二是通过将可获取焦点元素加入的disabled属性，也可以利用属性加dom锁定的方式（disabled的一种变换方式）
