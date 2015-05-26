@@ -63,6 +63,10 @@ click 事件普遍 300ms 的延迟
 
     <meta content="email=no" name="format-detection" />
     
+### 禁止 iOS 识别长串数字为电话
+
+    <meta content="telephone=no" name="format-detection" />
+    
 ### 禁止 iOS 弹出各种操作窗口
 
     -webkit-touch-callout:none
