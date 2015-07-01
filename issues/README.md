@@ -199,3 +199,15 @@ input type date 的 placeholder 支持性有一定问题，因为浏览器会针
 ###Android平台遮罩层下的input、select、a等元素可以被点击和focus(点击穿透)
    
   问题发现于三星手机，这个在特定需求下才会有，因此如果没有类似问题的可以不看。首先需求是浮层操作，在三星上被遮罩的元素依然可以获取focus、click、change. <a href="https://code.google.com/p/android/issues/detail?id=6721">but issue</a> ，在查看bug报告list以后，找到了两种解决方案，第一是通过层显示以后加入对应的class名控制，第二是通过将可获取焦点元素加入的disabled属性，也可以利用属性加dom锁定的方式（disabled的一种变换方式）
+  
+###Android philips 自带浏览器pushstate不健全的bug
+
+      平台：philips wo3G android 2.3.6
+      browser：自带浏览器
+      
+   <img src="./thumb/media-query-error.jpg" width="320px" height="480px" alt="safari localstorage  exception"/>
+
+  调用方法history.pushstate(state, title, url)
+  
+  	pushstate检测可用，并且调用后地址栏中的地址确实变更了，但是location.href竟然没变，临时想了一个解决方法，调用完毕pushstate后用正则匹配location.href 和 url确认一下是否可用（后来检测到history.state也无法变更，当然可以用state检测pushstate是否好使，毕竟state也是跟pushstate一批提出来的属性，所以我没有采用他，防止采坑）。
+  	
