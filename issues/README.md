@@ -203,3 +203,13 @@ input type date 的 placeholder 支持性有一定问题，因为浏览器会针
 ###Android平台遮罩层下的input、select、a等元素可以被点击和focus(点击穿透)
    
   问题发现于三星手机，这个在特定需求下才会有，因此如果没有类似问题的可以不看。首先需求是浮层操作，在三星上被遮罩的元素依然可以获取focus、click、change. <a href="https://code.google.com/p/android/issues/detail?id=6721">but issue</a> ，在查看bug报告list以后，找到了两种解决方案，第一是通过层显示以后加入对应的class名控制，第二是通过将可获取焦点元素加入的disabled属性，也可以利用属性加dom锁定的方式（disabled的一种变换方式）
+
+###部分机型存在type为search的input，自带close按钮样式修改方法
+
+  有些机型的搜索input控件会自带close按钮（一个伪元素），而通常为了兼容所有浏览器，我们会自己实现一个，此时去掉原生close按钮的方法为
+
+	#Search::-webkit-search-cancel-button{
+    	display: none;    
+	}
+
+  如果想使用原生close按钮，又想使其符合设计风格，可以对这个伪元素的样式进行修改。
