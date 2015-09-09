@@ -213,3 +213,19 @@ input type date 的 placeholder 支持性有一定问题，因为浏览器会针
 	}
 
   如果想使用原生close按钮，又想使其符合设计风格，可以对这个伪元素的样式进行修改。
+
+###唤起select的option展开
+zepto方式:
+
+```
+$(sltElement).trrgger("mousedown");
+```
+原生js方式:
+```
+function showDropdown(sltElement) {
+    var event;
+    event = document.createEvent('MouseEvents');
+    event.initMouseEvent('mousedown', true, true, window);
+    sltElement.dispatchEvent(event);
+};
+```
