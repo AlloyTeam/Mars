@@ -14,7 +14,7 @@ iOS 9+ Safari开始支持 -apple-system 参数， Chrome 使用 BlinkMacSystemFo
 
 `微软雅黑`是为了兼容Win系统，毕竟视网膜分辨率的win系统用`Simsun`是非常丑陋的，可以用4K屏@windowns 去看 JD 淘宝，你能忍的话我就没话说
 
-`PingFang SC` 是简体萍方，看需要 如果要命中对应 萍方字体的话 直接写  PingFang 不带引号。
+`PingFang SC` 是简体苹方，看需要 如果要命中对应 苹方字体的话 直接写  PingFang 不带引号。
 
 
 需补充说明，华文黑体并不存在iOS的字体库中(http://support.apple.com/kb/HT5484?viewlocale=en_US)，
