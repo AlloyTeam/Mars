@@ -9,8 +9,7 @@ Mars - mobile needs a hero
 4. [工具类方法汇总](./tools/)
 5. [iOS与Android平台上问题列表](./issues/)
 6. [高性能Mobile Web开发](./performance/)
-7. 类库依赖推荐
-8. [演示](./demos/)
+7. [特效制作解决方案](http://alloyteam.github.io/AlloyTouch/transformjs/)
 9. [触摸运动解决方案](https://github.com/AlloyTeam/AlloyTouch)
 
 AlloyTeam 邀请社区朋友一起参与完善 Mars，欢迎 [Fork](https://github.com/AlloyTeam/Mars/fork) & [Pull Request](https://github.com/AlloyTeam/Mars/pulls)
