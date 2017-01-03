@@ -18,10 +18,7 @@ AlloyTeam 邀请社区朋友一起参与完善 Mars，欢迎 [Fork](https://gith
 
 ### 贡献者
 
-1. 元彦
-2. Johnny Kwok
-3. maxzhang
-4. Adams
+元彦,Johnny Kwok,maxzhang,Adams
 
 ###[如何贡献?](https://github.com/AlloyTeam/Mars/wiki/%E5%A6%82%E4%BD%95%E8%B4%A1%E7%8C%AE%E5%86%85%E5%AE%B9)
 > 腾讯
