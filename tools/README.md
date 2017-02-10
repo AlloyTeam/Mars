@@ -46,3 +46,7 @@
 * [移动端手势表](http://ww1.sinaimg.cn/large/c2c57f68jw1e4fh7dmw12j20fi2w6qe1.jpg "移动端手势表")
 
 * [webkit独有的样式分析](http://ued.ctrip.com/blog/wp-content/webkitcss/ "webkit独有的样式分析")
+
+* [地图地区分布配色方案选择工具](https://github.com/axismaps/colorbrewer/ "地图地区分布配色方案选择工具")
+
+* [在线配色选择器](http://www.peise.net/tools/web/ "在线配色选择器")
