@@ -12,7 +12,7 @@ iOS 4.0+ （iOS 9以下系统已经非常少） 使用英文字体 Helvetica Neu
 
 iOS 9+ Safari开始支持 -apple-system 参数， Chrome 使用 BlinkMacSystemFont ，兼容 iOS ／ MacOS     
 
-`微软雅黑`是为了兼容Win系统，毕竟视网膜分辨率的win系统用`Simsun`是非常丑陋的，可以用4K屏@windowns 去看 JD 淘宝，你能忍的话我就没话说
+`微软雅黑`是为了兼容Win系统，毕竟视网膜分辨率的win系统用`Simsun`是非常丑陋的，可以用4K屏 windows 去看 JD 淘宝，你能忍的话我就没话说
 
 `PingFang SC` 是简体苹方，看需要 如果要命中对应 苹方字体的话 直接写  PingFang 不带引号。
 
