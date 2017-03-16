@@ -14,6 +14,6 @@ Mars - mobile needs a hero
 10. [Mobile手势解决方案](https://github.com/AlloyTeam/AlloyFinger)
 11. [Mobile裁剪解决方案](https://github.com/AlloyTeam/AlloyFinger/tree/master/alloy_crop)
 
-腾讯 AlloyTeam 邀请社区朋友一起参与完善 Mars，欢迎 [Fork](https://github.com/AlloyTeam/Mars/fork) & [Pull Request](https://github.com/AlloyTeam/Mars/pulls)
+### [捐助Mars](http://alloyteam.github.io/donate.html)
 
-###[捐助Mars](http://alloyteam.github.io/donate.html)
+腾讯 AlloyTeam 邀请社区朋友一起参与完善 Mars，欢迎 [Fork](https://github.com/AlloyTeam/Mars/fork) & [Pull Request](https://github.com/AlloyTeam/Mars/pulls)
