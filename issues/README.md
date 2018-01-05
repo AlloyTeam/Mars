@@ -218,7 +218,7 @@ input type date 的 placeholder 支持性有一定问题，因为浏览器会针
 zepto方式:
 
 ```
-$(sltElement).trrgger("mousedown");
+$(sltElement).trigger("mousedown");
 ```
 原生js方式:
 ```
