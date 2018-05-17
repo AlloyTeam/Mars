@@ -14,7 +14,7 @@ Mars - mobile needs a hero
 10. [Mobile 手势解决方案](https://github.com/AlloyTeam/AlloyFinger)
 11. [Mobile 裁剪解决方案](https://github.com/AlloyTeam/AlloyCrop)
 12. [Mobile 级联选择器](https://github.com/AlloyTeam/AlloyTouch/tree/master/select)
-13. [组件化框架 Omi](https://github.com/AlloyTeam/omi) 
+13. [组件化框架 Omi](https://github.com/Tencent/omi) 
 14. [做最好的脚手架，创建网站无需配置](https://github.com/AlloyTeam/omi-cli)
 15. [1kb代码搞定移动 Web 开发调试发布错误监控上报用户问题定位](https://github.com/AlloyTeam/AlloyLever)
 
