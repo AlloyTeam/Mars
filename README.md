@@ -9,7 +9,7 @@ Mars - mobile needs a hero
 * [工具类方法汇总](./tools/)
 * [iOS 与 Android 平台上问题列表](./issues/)
 * [高性能 Mobile Web 开发](./performance/)
-* [通用组件化框架 - Omi![](https://raw.githubusercontent.com/dntzhang/cax/master/asset/hot.png)](https://github.com/Tencent/omi) 
+* [下一代 Web 框架 - Omi![](https://raw.githubusercontent.com/dntzhang/cax/master/asset/hot.png)](https://github.com/Tencent/omi) 
 * [特效制作解决方案 - css3transform](http://alloyteam.github.io/AlloyTouch/transformjs/)
 * [触摸运动解决方案 - AlloyTouch](https://github.com/AlloyTeam/AlloyTouch)
 * [Mobile 手势解决方案 - AlloyFinger](https://github.com/AlloyTeam/AlloyFinger)
