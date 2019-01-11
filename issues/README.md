@@ -99,6 +99,7 @@ click 事件普遍 300ms 的延迟
     });
     
 把代码放在 setTimeout 中，会发现程序变快.
+<https://developers.google.cn/web/fundamentals/design-and-ux/input/touch/#_7>
 
 ### 关于 iOS 系统中，WebAPP 启动图片在不同设备上的适应性设置
 
